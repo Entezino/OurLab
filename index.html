@@ -1,952 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Translational Psychiatry at the UKJ</title>
-
-
-
-    <!-- Custom Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
-
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+	<title>Simple web Development Template</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src= "logo.png">
+			</div>
+			<li><a href="#web">Web Technology</a></li>
+			<li><a href="#program">C Programming</a></li>
+			<li><a href="#course">Courses</a></li>
+		</ul>
 
-<body id="page-top">
-  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
+		<div class="rightNav">
+			<input type="text" name="search" id="search">
+			<button class="btn btn-sm">Search</button>
+		</div>
+	</nav>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a class="page-scroll" href="#about">About</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#projects">Research</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#links">Links</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
-</nav>
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="web">Web Technology</h1>
+				<p class="text-small">
+					HTML stands for HyperText Markup Language.
+					It is used to design web pages using a markup
+					language. HTML is the combination of Hypertext
+					and Markup language. Hypertext defines the
+					link between the web pages. A markup language
+					is used to define the text document within tag
+					which defines the structure of web pages.
+					HTML is a markup language that is used by the
+					browser to manipulate text, images, and other
+					content to display it in the required format.
+				</p>
 
-  <header>
-    <div class="header-content">
-        <div class="header-content-inner">
-            <h1 class="wow fadeIn" data-wow-delay="0s">Deciphering Depression</h1>
-            <hr class="btn-white wow fadeIn" data-wow-delay="0.15s">
-            <h4 class="wow fadeIn" data-wow-delay="0.30s">Unraveling Mind-Body-Brain Interactions
-            </h4>
-            <!--<a href="#about" class="btn btn-white btn-xl page-scroll">Find Out More</a>-->
-        </div>
-    </div>
-</header>
 
-  <section class="bg-primary" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading wow fadeIn" data-wow-delay="0s">Welcome to the Opel Lab</h2>
-                <hr class="light wow fadeIn" data-wow-delay=".05s">
-            </div>
-            <div class="col-lg-8 col-lg-offset-2">
-                <p class="text-faded wow fadeIn" data-wow-delay="0.1s">Where our mission is to unravel the interactions between the body and brain in affective disorders. We integrate clinical & neuroscientific expertise with state-of-the-art data science to </p>
-                <ol>
-                    <li class="wow fadeIn" data-wow-delay="0.2s"><p class="text-faded">generate insights on the risk factors and neurobiological mechanisms that determine individual disease trajectories in affective disorders and</p></li>
-                    <li class="wow fadeIn" data-wow-delay="0.3s"><p class="text-faded">transfer these insights into optimized diagnostic, treatment and prevention in clinical routine</p></li>
-                </ol>
-            </div>
-        </div>
-    </div>
-</section>
+			</div>
+		</div>
+	</section>
 
-  <section id="projects">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading wow fadeIn" data-wow-delay="0s">Our research focuses on the following key areas</h2>
-                <hr class="primary wow fadeIn" data-wow-delay=".05s">
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-puzzle-piece wow bounceIn text-primary"></i>
-                    <h3 class="wow fadeIn" data-wow-delay="0s">Brain</h3>
-                    <p class="text-muted wow fadeIn" data-wow-delay=".05s">We investigate maladaptive neural circuits that mediate the relationship between risk factors and symptom trajectory in depression.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-arrows wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                    <h3 class="wow fadeIn" data-wow-delay="0.1s">Body</h3>
-                    <p class="text-muted wow fadeIn" data-wow-delay=".15s">We examine the relationship between immunometabolic and affective disorders.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-tablet wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                    <h3 class="wow fadeIn" data-wow-delay="0.2s">Digital phenotyping</h3>
-                    <p class="text-muted wow fadeIn" data-wow-delay=".25s">We develop solutions for ecological valid longitudinal monitoring of depressive symptoms.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-signal wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                    <h3 class="wow fadeIn" data-wow-delay="0.3s">Personalization</h3>
-                    <p class="text-muted wow fadeIn" data-wow-delay=".35s">We aim to achieve individual risk profiling and predictive modelling in clinical routine.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+	<section class="secondsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="program">
+					C Programming
+				</h1>
+				<p class="text-small">
+					C is a procedural programming language. It
+					was initially developed by Dennis Ritchie
+					as a system programming language to write
+					operating system. The main features of C
+					language include low-level access to memory,
+					simple set of keywords, and clean style,
+					these features make C language suitable for
+					system programming like operating system or
+					compiler development.
+				</p>
 
-    <aside class="bg-primary">
-      <div class="container text-center">
-          <div class="call-to-action">
-              <!--<h2></h2>
-              <a href="#" class="btn btn-default btn-xl wow tada"></a>-->
-          </div>
-      </div>
-  </aside>
 
-  <section id="contact">
-    <div class="container">
-        <div class="row row-offset">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading wow fadeIn" data-wow-delay="0s">Meet our multidisciplinary team</h2>
-                <hr class="primary wow fadeIn" data-wow-delay=".05s">
-                <p class="wow fadeIn" data-wow-delay=".15s">Consisting of medical doctors, clinical psychologists, computer scientists, and biochemists.</p>
-            </div>
+			</div>
+		</div>
+	</section>
 
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>Univ.-Prof. Dr. med.</h6>
-                <p>Nils Opel</p>
-                <h6 class="contact-text">Leiter der AG für Translationale Psychiatrie, Leitender Oberarzt der Klinik für Psychiatrie und Psychotherapie, Universitätsklinikum Jena sowie Universitätsprofessor der Friedrich-Schiller-Universität Jena</h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:Nils.Opel@med.uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>Dipl.-Inf.</h6>
-                <p>Daniel Jakob Emden</p>
-                <h6 class="contact-text">Development and maintenance of the ReMAP app, enhancing its capabilities to collect mobile sensing and EMA data for various research studies. Currently focusing on the analysis of speech samples to gain insights into mental health conditions from spoken text.</h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:Daniel.Emden@med.uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>Dr. rer. medic. Dipl.-Inform.</h6>
-                <p>Rogério Blitz</p>
-                <h6 class="contact-text">Development of digital phenotyping methods to accurately capture behavioral patterns and mood fluctuations, enabling individualized diagnosis and treatment of mental illnesses.</h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:Rogerio.Blitz@med.uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>M.Sc. Psychologin, Psychologische Psychotherapeutin</h6>
-                <p>Maike Richter</p>
-                <h6 class="contact-text">Identifying predictors for treatment response in psychiatric real-world samples, digital phenotyping and longitudinal monitoring.</h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:Maike.Richter@med.uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>M.Sc. Psychologin, Psychologische Psychotherapeutin</h6>
-                <p>Janette Ratzsch</p>
-                <h6 class="contact-text">Identifying predictors, such as childhood maltreatment and narcissistic personality factors, for treatment response in real-world psychiatric samples, assessing short- and long-term outcomes.</h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:Janette.Ratzsch@med.uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>Dr. med.</h6>
-                <p>Lavinia-Alexandra Steinmann</p>
-                <h6 class="contact-text">Digital cohorts for monitoring mental health in the general population (DigiHero). Investigation of altered brain circuits in Major depressive disorder with comorbid obesity / alcohol use disorder to optimize treatment outcome.</h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:Lavinia-Alexandra.Steinmann@med.uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>B.Sc. Biochemie/Molekularbiologie; M.Sc. Molecular Medicine</h6>
-                <p>Moritz Rau</p>
-                <h6 class="contact-text">Investigating the peripheral immune response in MDD patients using multi-parametric Flow Cytometry. Biological characterization of MDD patients after different treatment responses.</h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:Moritz.Rau@med.uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>M.Sc. Psychologie</h6>
-                <p>Lara Gutfleisch</p>
-                <h6 class="contact-text">Research into digital phenotyping, focusing on the use of GPS data from ReMAP to predict mental health conditions, particularly depression. Investigating the relationship between step count and depression in the context of smartphone sensing.</h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:Lara.Gutfleisch@uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>Staatsexamen (Medizin)</h6>
-                <p>Luise V. Claaß</p>
-                <h6 class="contact-text">Assessing post-infectious neuropsychiatric sequelae, predicting treatment success in affective disorders with neurostimulation and neuroimaging, and exploring brain structural changes linked to obesity and neuropsychiatric disorders.</h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:LuiseVictoria.Claass@med.uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>Staatsexamen (Medizin)</h6>
-                <p>Anna Fleuchaus</p>
-                <h6 class="contact-text">Investigation of the relationship between nocturnal rest/activity patterns and variable symptom clusters in patients with MDD by analyzing passive ReMAP data collected from smartphones. Further, the prediction of symptom clusters by specific rest variables.</h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:Anna.Fleuchaus@med.uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>Dr. med. / Staatsexamen (Medizin)</h6>
-                <p>Jonathan Mathias Faßhauer</p>
-                <h6 class="contact-text">Investigation of clinical data and psychiatric care structures in the context of health services research. Currently expanding my expertise in the biological characterization of bipolar depression.</h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:JonathanMathias.Fasshauer@med.uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>Wiss. MA / Koordinatorin</h6>
-                <p>Eva Rafflenbeul</p>
-                <h6 class="contact-text">Identifying predictors, such as childhood maltreatment and narcissistic personality factors, for treatment response in real-world psychiatric samples, assessing short- and long-term outcomes.</h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:Eva.Rafflenbeul@uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>Doktorand</h6>
-                <p>Franziska Schick</p>
-                <h6 class="contact-text"></h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:AG-Translationale-Psychiatrie@med.uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>Masterarbeit</h6>
-                <p>Emily Krain</p>
-                <h6 class="contact-text"></h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:AG-Translationale-Psychiatrie@med.uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>Doktorand</h6>
-                <p>Joane Müller</p>
-                <h6 class="contact-text"></h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:AG-Translationale-Psychiatrie@med.uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>Doktorand</h6>
-                <p>Götz Von Waldstein</p>
-                <h6 class="contact-text"></h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:AG-Translationale-Psychiatrie@med.uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>Stud. Hilfskraft / Bachelorarbeit</h6>
-                <p>Jule Schubert</p>
-                <h6 class="contact-text"></h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:AG-Translationale-Psychiatrie@med.uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>Stud. Hilfskraft</h6>
-                <p>Fabiana Lazur</p>
-                <h6 class="contact-text"></h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:AG-Translationale-Psychiatrie@med.uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>Stud. Hilfskraft</h6>
-                <p>Antonia Perschke</p>
-                <h6 class="contact-text"></h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:AG-Translationale-Psychiatrie@med.uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>Stud. Hilfskraft</h6>
-                <p>Nico Salig</p>
-                <h6 class="contact-text"></h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:AG-Translationale-Psychiatrie@med.uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>Stud. Hilfskraft</h6>
-                <p>Johanna Andres</p>
-                <h6 class="contact-text"></h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:AG-Translationale-Psychiatrie@med.uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>Stud. Hilfskraft</h6>
-                <p>Marie Balkhaus</p>
-                <h6 class="contact-text"></h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:AG-Translationale-Psychiatrie@med.uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>Stud. Hilfskraft</h6>
-                <p>Sandra Zwoch</p>
-                <h6 class="contact-text"></h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:AG-Translationale-Psychiatrie@med.uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>Stud. Hilfskraft</h6>
-                <p>Vanessa Winkler</p>
-                <h6 class="contact-text"></h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:AG-Translationale-Psychiatrie@med.uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>Stud. Hilfskraft</h6>
-                <p>Jakob Maidowski</p>
-                <h6 class="contact-text"></h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:AG-Translationale-Psychiatrie@med.uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 text-center wow fadeIn" data-wow-delay=".2s">
-                <h6>Stud. Hilfskraft</h6>
-                <p>Anna Leonora Rautenberg</p>
-                <h6 class="contact-text"></h6>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="icon-container">
-                                <div class="iconSprite">
-                                    <a href="mailto:AG-Translationale-Psychiatrie@med.uni-jena.de"><i class="fa fa-envelope fa-xs"></i></a>
-                                </div>
-                                <!-- 
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-linkedin fa-xs"></i></a>
-                                </div>
-                                <div class="iconSprite">
-                                    <a href="mailto:"><i class="fa fa-twitter fa-xs"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
+	<section class="section">
+		<div class="paras">
+			<h1 class="sectionTag text-big">Java</h1>
 
-        </div>
-    </div>
-</section>
+			<p class="sectionSubTag text-small">
+				Java has been one of the most popular
+				programming language for many years.
+				Java is Object Oriented. However it is
+				not considered as pure object oriented
+				as it provides support for primitive
+				data types (like int, char, etc) The
+				Java codes are first compiled into byte
+				code (machine independent code). Then
+				the byte code is run on Java Virtual
+				Machine (JVM) regardless of the
+				underlying architecture.
+			</p>
 
-    <aside class="bg-primary">
-      <div class="container text-center">
-          <div class="call-to-action">
-              <!--<h2></h2>
-              <a href="#" class="btn btn-default btn-xl wow tada"></a>-->
-          </div>
-      </div>
-  </aside>
 
-  <section id="links">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading wow fadeIn" data-wow-delay="0s">Links</h2>
-                <hr class="primary">
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
+		</div>
 
-            
-            <div class="col-lg-4 col-md-4 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-book wow bounceIn text-primary" data-wow-delay=".0s"></i>
-                    <h3 class="wow fadeIn" data-wow-delay="0s">Publications</h3>
-                    <a href="https://pubmed.ncbi.nlm.nih.gov/?term=opel+n&sort=date" target="_blank">
-                    <p class="text-muted wow fadeIn" data-wow-delay=".05s">For a full list of publications please see</p>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-4 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-globe wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                    <h3 class="wow fadeIn" data-wow-delay="0s">Collaboration DZPG</h3>
-                    <a href="https://www.dzpg.org/" target="_blank">
-                    <p class="text-muted wow fadeIn" data-wow-delay=".15s">German Center for Mental Health</p>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-4 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-globe wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                    <h3 class="wow fadeIn" data-wow-delay="0s">Collaboration CIRC</h3>
-                    <a href="https://c-i-r-c.de/" target="_blank">
-                    <p class="text-muted wow fadeIn" data-wow-delay=".15s">CIRC / Center for Intervention and Research on adaptive and maladaptive brain Circuits underlying mental health</p>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-4 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-globe wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                    <h3 class="wow fadeIn" data-wow-delay="0s">Collaboration ENIGMA</h3>
-                    <a href="https://enigma.ini.usc.edu/" target="_blank">
-                    <p class="text-muted wow fadeIn" data-wow-delay=".25s">ENIGMA Consortium</p>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-4 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-globe wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                    <h3 class="wow fadeIn" data-wow-delay="0s">Collaboration GEMRIC</h3>
-                    <a href="https://helse-bergen.no/en/avdelinger/psykisk-helsevern/forskingsavdelinga-divisjon-psykisk-helsevern/gemric-the-global-ect-mri-research-collaboration" target="_blank">
-                    <p class="text-muted wow fadeIn" data-wow-delay=".35s">GEMRIC Consortium</p>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-4 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-globe wow bounceIn text-primary" data-wow-delay=".4s"></i>
-                    <h3 class="wow fadeIn" data-wow-delay="0s">Collaboration ECNP</h3>
-                    <a href="https://www.ecnp.eu/research-innovation/networks-thematic-working-groups/List-ECNP-Networks/digital-health-applied-clinical-research-brain-disorders" target="_blank">
-                    <p class="text-muted wow fadeIn" data-wow-delay=".45s">ECNP Digital Health Applied to the Clinical Research of Brain Disorders Network</p>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-4 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-twitter wow bounceIn text-primary" data-wow-delay=".5s"></i>
-                    <h3 class="wow fadeIn" data-wow-delay="0s">Social Media</h3>
-                    <a href="https://twitter.com/opelnils?lang=de" target="_blank">
-                    <p class="text-muted wow fadeIn" data-wow-delay=".55s">Follow us on twitter</p>
-                    </a>
-                </div>
-            </div>
-            
-            <!--
-            <div class="col-lg-4 col-md-3 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-globe wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                    <h3 class="wow fadeIn" data-wow-delay="0.1s">Collaboration: CIRC</h3>
-                    <a href="https://c-i-r-c.de/" target="_blank">
-                    <p class="text-muted wow fadeIn" data-wow-delay=".15s">CIRC / Center for Intervention and Research on adaptive and maladaptive brain Circuits underlying mental health</p>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-3 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-globe wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                    <h3 class="wow fadeIn" data-wow-delay="0.2s">Collaboration: ENIGMA</h3>
-                    <a href="https://enigma.ini.usc.edu/" target="_blank">
-                    <p class="text-muted wow fadeIn" data-wow-delay=".25s">ENIGMA Consortium</p>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-3  text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-globe wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                    <h3 class="wow fadeIn" data-wow-delay="0.3s">Collaboration: GEMRIC</h3>
-                    <a href="https://helse-bergen.no/en/avdelinger/psykisk-helsevern/forskingsavdelinga-divisjon-psykisk-helsevern/gemric-the-global-ect-mri-research-collaboration" target="_blank">
-                    <p class="text-muted wow fadeIn" data-wow-delay=".35s">GEMRIC Consortium</p>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-3  text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-globe wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                    <h3 class="wow fadeIn" data-wow-delay="0.4s">Collaboration: ECNP</h3>
-                    <a href="https://www.ecnp.eu/research-innovation/networks-thematic-working-groups/List-ECNP-Networks/digital-health-applied-clinical-research-brain-disorders" target="_blank">
-                    <p class="text-muted wow fadeIn" data-wow-delay=".45s">ECNP Digital Health Applied to the Clinical Research of Brain Disorders Network   </p>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-3   text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-twitter wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                    <h3 class="wow fadeIn" data-wow-delay="0.5s">Social Media</h3>
-                    <a href="https://twitter.com/opelnils?lang=de" target="_blank">
-                    <p class="text-muted wow fadeIn" data-wow-delay=".55s">Follow us on twitter</p>
-                    </a>
-                </div>
-            </div>
-            -->
-        </div>
-    </div>
-</section>
+		<div class="thumbnail">
+			<img src= "img.png" alt="laptop image">
+		</div>
+	</section>
 
-  <!-- jQuery -->
-<script src="js/jquery.js"></script>
+	<footer class="background">
+		<p class="text-footer">
+			Copyright ©-All rights are reserved
+		</p>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
 
-<!-- Plugin JavaScript -->
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/jquery.fittext.js"></script>
-<script src="js/wow.min.js"></script>
-
-<!-- Custom Theme JavaScript -->
-<script src="js/creative.js"></script>
-
+	</footer>
 </body>
 
 </html>
